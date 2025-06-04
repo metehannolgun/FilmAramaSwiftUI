@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		341D08892DF0F6E400916639 /* ImageDownloaderClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D08882DF0F6E400916639 /* ImageDownloaderClient.swift */; };
+		341D088B2DF0F93700916639 /* OzelImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 341D088A2DF0F93700916639 /* OzelImage.swift */; };
 		343036872DEDCAD300FD0CA2 /* FilmAramaSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343036862DEDCAD300FD0CA2 /* FilmAramaSwiftUIApp.swift */; };
 		343036892DEDCAD300FD0CA2 /* FilmListeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343036882DEDCAD300FD0CA2 /* FilmListeView.swift */; };
 		3430368B2DEDCAD400FD0CA2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3430368A2DEDCAD400FD0CA2 /* Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		341D08882DF0F6E400916639 /* ImageDownloaderClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderClient.swift; sourceTree = "<group>"; };
+		341D088A2DF0F93700916639 /* OzelImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OzelImage.swift; sourceTree = "<group>"; };
 		343036832DEDCAD300FD0CA2 /* FilmAramaSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FilmAramaSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		343036862DEDCAD300FD0CA2 /* FilmAramaSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmAramaSwiftUIApp.swift; sourceTree = "<group>"; };
 		343036882DEDCAD300FD0CA2 /* FilmListeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilmListeView.swift; sourceTree = "<group>"; };
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				343036882DEDCAD300FD0CA2 /* FilmListeView.swift */,
+				341D088A2DF0F93700916639 /* OzelImage.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -112,6 +117,7 @@
 			isa = PBXGroup;
 			children = (
 				3430369B2DEDD3BA00FD0CA2 /* DownloaderClient.swift */,
+				341D08882DF0F6E400916639 /* ImageDownloaderClient.swift */,
 			);
 			path = Service;
 			sourceTree = "<group>";
@@ -188,9 +194,11 @@
 			files = (
 				343036892DEDCAD300FD0CA2 /* FilmListeView.swift in Sources */,
 				343036992DEDCB6400FD0CA2 /* Film.swift in Sources */,
+				341D088B2DF0F93700916639 /* OzelImage.swift in Sources */,
 				3431181F2DEE243A00B1D917 /* FilmViewModel.swift in Sources */,
 				343036872DEDCAD300FD0CA2 /* FilmAramaSwiftUIApp.swift in Sources */,
 				3430369C2DEDD3BA00FD0CA2 /* DownloaderClient.swift in Sources */,
+				341D08892DF0F6E400916639 /* ImageDownloaderClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
